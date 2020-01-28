@@ -1,0 +1,7 @@
+# Specify filepatterns you want git to ignore.
+.DS_Store
+*.pyc
+discord.log
+nohup.out
+.vscode/
+icon.png
