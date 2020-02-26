@@ -16,10 +16,10 @@ class Conoha(object):
         payload = {
             "auth": {
                 "passwordCredentials": {
-                    "username": "gncu68859587",
-                    "password": "Steins;G8"
+                    "username": "xxxxxxxxxxxxx",
+                    "password": "xxxxxxxxxxxxx"
                 },
-                "tenantId": "e43543d5c95d442983d766862f1a825e"
+                "tenantId": "xxxxxxxxxxxxxxxxxxxxxx"
             }
         }
         response = requests.post(url, data=json.dumps(payload), headers=headers)
