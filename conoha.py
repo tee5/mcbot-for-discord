@@ -25,7 +25,7 @@ class Conoha(object):
         response = requests.post(url, data=json.dumps(payload), headers=headers)
         return response.json()
     def restart(self):
-        url = "https://compute.tyo1.conoha.io/v2/e43543d5c95d442983d766862f1a825e/servers/94486719-17d4-424d-b3c6-9d53793b0ff5/action"
+        url = "https://compute.tyo1.conoha.io/v2/xxxxxxxxxxxxxxxxxxxxxxx/servers/xxxxxxxxxxxxxxxxxxxxx/action"
         headers = {
             "Content-Type": "application/json",
             "Accept": "application/json",
